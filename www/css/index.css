@@ -23,6 +23,7 @@
     -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
 }
 
+/*
 body {
     background-color:#E4E4FF;
     background-image:linear-gradient(top, #A7A7FF 0%, #E4E4FF 51%);
@@ -44,6 +45,7 @@ body {
     text-transform:uppercase;
     width:100%;
 }
+*/
 
 /* Portrait layout (default) */
 .app {
@@ -108,7 +110,9 @@ h1 {
     to { opacity: 1.0; }
 }
  
+ /*
 .blink {
     animation:fade 3000ms infinite;
     -webkit-animation:fade 3000ms infinite;
 }
+*/
