@@ -7,5 +7,6 @@ function OnBodyLoad()
 function onDeviceReady() 
 {
     /* When this function is called, PhoneGap has been initialized */
+    alert("onDeviceReady()");
     InitializeHub();
 }
