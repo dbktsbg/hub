@@ -6,7 +6,7 @@
   id = "com.dbktsbg.hub"
   version = "1.0.0">
   
-  <name>CloudVote HUB</name>
+  <name>HUB</name>
 
   <description>
       UI to integrate web and local functionality.
