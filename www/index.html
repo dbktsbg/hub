@@ -19,10 +19,10 @@
             rel="stylesheet" 
             href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
 
-        <link 
+<!--        <link 
 	        rel="stylesheet" 
 	        type="text/css" 
-	        href="css/index.css" />
+	        href="css/index.css" />-->
 
         <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
         <script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
@@ -33,24 +33,39 @@
     <body
         onload = "OnBodyLoad()">
 
-        <div id="AppRegion">
+        <!-- /page -->
+        <div data-role="page">
+
+            <!-- /header -->
+	        <div data-role="header">
+		        <h1>My Title</h1>
+	        </div>
+
+	        <!-- /content -->
+            <div data-role="content">	
+
+                <div id="AppRegion">
         
-            <div id="MeetingToolsRegion">
-                <p>Meeting Tools</p>
-            </div>
+                    <div id="MeetingToolsRegion">
+                        <p>Meeting Tools</p>
+                    </div>
 
-            <div id="CloudVoteAppRegion">
-                <p>Cloud Vote</p>
-            </div>
+                    <div id="CloudVoteAppRegion">
+                        <p>Cloud Vote</p>
+                    </div>
 
-        </div>
+                </div>
 
-        <div id="ToolBarRegion">
+                <div id="ToolBarRegion">
         
-            <p>
-                <button id="ShowCloudVoteButton">CloudVote</button>
-                <button id="ShowMeetingToolsButton">MeetingTools</button>
-            </p>
+                    <p>
+                        <button id="ShowCloudVoteButton">CloudVote</button>
+                        <button id="ShowMeetingToolsButton">MeetingTools</button>
+                    </p>
+
+                </div>
+
+	        </div>
 
         </div>
 
