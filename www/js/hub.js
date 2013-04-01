@@ -2,8 +2,8 @@
 function InitializeHub() 
 {
     alert("InitializeHub()");
-     jQuery("#ShowCloudVoteButton").click(ShowCloudVoteRegion());
-    jQuery("#ShowMeetingToolsButton").click(ShowMeetingToolsRegion());
+    jQuery("#ShowCloudVoteButton").on("click", ShowCloudVoteRegion());
+    jQuery("#ShowMeetingToolsButton").on("click", ShowMeetingToolsRegion());
 }
 
 function ShowCloudVoteRegion() 
