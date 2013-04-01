@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<widget
+  xmlns = "http://www.w3.org/ns/widgets"
+  xmlns:gap = "http://phonegap.com/ns/1.0"
+  id = "com.dbktsbg.hub"
+  version = "1.0.0">
+  
+  <name>CloudVote HUB</name>
+
+  <description>
+      UI to integrate web and local functionality.
+  </description>
+
+</widget>

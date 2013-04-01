@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <title>CloudVote HUB</title>
+
+        <meta 
+            http-equiv="Content-Type" 
+            content="text/html; 
+            charset=UTF-8" />
+
+        <meta 
+	        name="viewport" 
+	        content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+
+        <link 
+	        rel="stylesheet" 
+	        type="text/css" 
+	        href="css/index.css" />
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" ></script>
+
+    </head>
+
+    <body
+        onload = "OnBodyLoad()">
+
+        <div id="AppRegion">
+        
+            <div id="CloudVoteAppRegion">
+                <p>Cloud Vote</p>
+            </div>
+
+            <div id="MeetingToolsRegion">
+                <p>Meeting Tools</p>
+            </div>
+
+        </div>
+
+        <div id="ToolBarRegion">
+        
+            <p>
+                <button id="ShowCloudVoteButton">CloudVote</button>
+                <button id="ShowMeetingToolsButton">MeetingTools</button>
+            </p>
+
+        </div>
+
+        <!--PhoneGap script-->
+        <script 
+            type="text/javascript" 
+            src="phonegap.js"></script>
+            
+        <!--PlugIn Scripts-->
+        
+        <!--My Scripts-->
+        <script 
+            type="text/javascript" 
+            src="js/index.js"></script>
+
+        <script 
+            type="text/javascript" 
+            src="js/hub.js"></script>
+
+    </body>
+
+</html>
