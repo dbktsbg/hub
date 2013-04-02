@@ -10,7 +10,7 @@ function InitializeHub()
     jQuery("#DeviceNameRegion").text("Device Name: " + DeviceName);
     jQuery("#DeviceNameRegion").text("Device ID: " + DeviceID);
 
-//    jQuery("#LaunchCloudVoteAnchorButton").href = "meridiaars.com";
-//    jQuery("#LaunchCloudVoteAnchorButton").text("Join Meeting...");
+    jQuery("#LaunchCloudVoteAnchorButton").href = "meridiaars.com";
+    jQuery("#LaunchCloudVoteAnchorButton").text("Join Meeting...");
 
 }
