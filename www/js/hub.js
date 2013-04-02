@@ -23,7 +23,7 @@ function SetupToLaunchCloudVoteParticipant()
     }
 
     //jQuery("#LaunchCloudVoteAnchorButton")[0].click();
-    jQuery("#LaunchCloudVoteAnchorButton").click();
+    jQuery('#LaunchCloudVoteAnchorButton')[0].click();
     
     //jQuery("#LaunchCloudVoteAnchorButton").show();
 
