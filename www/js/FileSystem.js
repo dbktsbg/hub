@@ -6,7 +6,7 @@ function InitializeFileSystem()
 
 function gotFS(fileSystem) 
 {
-    fileSystem.root.getFile("readme.txt", null, gotFileEntry, fail);
+    fileSystem.root.getFile("MeridiaDeviceSettings.txt", null, gotFileEntry, fail);
 }
 
 function gotFileEntry(fileEntry) 
