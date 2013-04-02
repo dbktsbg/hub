@@ -13,8 +13,15 @@ function SetupToLaunchCloudVoteParticipant()
     jQuery("#DeviceNameRegion").text("Device Name: " + DeviceName);
     jQuery("#DeviceIDRegion").text("Device ID: " + DeviceID);
 
-    jQuery("#LaunchCloudVoteAnchorButton").attr("href", "http://www.meridiaars.com");
-    //jQuery("#LaunchCloudVoteAnchorButton").text("Join Meeting...");
+    if (DeviceID=="ef8048728a9fcdbb")
+    {
+        jQuery("#LaunchCloudVoteAnchorButton").attr("href", "http://www.meridiaars.com/cv1.html");
+    }
+
+    if (DeviceID == "1875fec3215046cd") {
+        jQuery("#LaunchCloudVoteAnchorButton").attr("href", "http://www.meridiaars.com/cv2.html");
+    }
+    
     //jQuery("#LaunchCloudVoteAnchorButton").show();
 
 }
