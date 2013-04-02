@@ -6,7 +6,16 @@ function InitializeHub()
     var DeviceID = device.uuid
     var DeviceName = device.name
 
-    jQuery("#AppRegion").html("<a data-role='button' data-theme='b'>Join Meeting using Device: " + DeviceName + " (" + DeviceID + ") </a>");
+    jQuery("#AppRegion").html
+                                        (
+                                        "<a " +
+                                            "data-role='button' " + 
+                                            "data-theme='b' " +
+                                        ">" +
+                                            "Join Meeting using Device: " +
+                                            DeviceName + " (" + DeviceID + ")" +
+                                        "</a>"
+                                        );
 
 
 //                            <a 
@@ -14,4 +23,9 @@ function InitializeHub()
 //                            data-role="button"
 //                            data-theme="b">Join Meeting Now...</a>
 
+}
+
+function LaunchCloudVoteParticipant(DeviceID, DeviceName)
+{
+    
 }
