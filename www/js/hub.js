@@ -1,7 +1,7 @@
 
 function InitializeHub() 
 {
-    SetupToLaunchCloudVoteParticipant
+    SetupToLaunchCloudVoteParticipant();
 }
 
 function SetupToLaunchCloudVoteParticipant() 
