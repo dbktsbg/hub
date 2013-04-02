@@ -1,6 +1,7 @@
 
 function InitializeHub() 
 {
+    alert("InitializeHub");
     jQuery("#AppRegion").text = "ABC";
 
 
