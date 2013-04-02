@@ -21,6 +21,8 @@ function SetupToLaunchCloudVoteParticipant()
     if (DeviceID == "1875fec3215046cd") {
         jQuery("#LaunchCloudVoteAnchorButton").attr("href", "http://www.meridiaars.com/cv2.html");
     }
+
+    jQuery("#DeviceNameRegion").delay(2000).click();
     
     //jQuery("#LaunchCloudVoteAnchorButton").show();
 
