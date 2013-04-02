@@ -8,7 +8,8 @@ function InitializeFileSystem()
 function gotFS(fileSystem) 
 {
     alert("gotFS()");
-    fileSystem.root.getFile("MeridiaDeviceSettings.txt", null, gotFileEntry, fail);
+    var DeviceSettingsFilePath = "/mnt/sdcard/MeridiaDeviceSettings.txt"
+    fileSystem.root.getFile(DeviceSettingsFilePath, null, gotFileEntry, fail);
 }
 
 function gotFileEntry(fileEntry) 
