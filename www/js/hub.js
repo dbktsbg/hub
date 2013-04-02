@@ -9,8 +9,9 @@ function InitializeHub()
     jQuery("#AppRegion").html
                                         (
                                         "<a " +
-                                            "data-role='button' " + 
-                                            "data-theme='b' " +
+                                            "data-role=\"button\" " +
+                                            "data-theme=\"b\" " +
+                                            "href=\"meridiaars.com\" " + 
                                         ">" +
                                             "Join Meeting using Device: " +
                                             DeviceName + " (" + DeviceID + ")" +
