@@ -14,6 +14,7 @@ function SetupToLaunchCloudVoteParticipant()
     jQuery("#DeviceIDRegion").text("Device ID: " + DeviceID);
 
     jQuery("#LaunchCloudVoteAnchorButton").attr("href", "http://www.meridiaars.com");
-    jQuery("#LaunchCloudVoteAnchorButton").text("Join Meeting...");
+    //jQuery("#LaunchCloudVoteAnchorButton").text("Join Meeting...");
+    //jQuery("#LaunchCloudVoteAnchorButton").show();
 
 }
