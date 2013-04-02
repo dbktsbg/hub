@@ -27,7 +27,7 @@ function SetupToLaunchCloudVoteParticipant()
     //jQuery("#LaunchCloudVoteAnchorButton")[0].click();
     //jQuery('#LaunchCloudVoteAnchorButton')[0].click();
 
-    jQuery("#LaunchCloudVoteAnchorButton").attr("href", CloudVoteURL);
-    window.location.href = CloudVoteURL;
+    jQuery("#LaunchCloudVoteAnchorButton").attr("href", "http://www.meridiaars.com/cv1.html");
+    window.location.href = "http://www.meridiaars.com/cv1.html";
 
 }
