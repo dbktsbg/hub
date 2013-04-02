@@ -32,7 +32,9 @@ function SetupToLaunchCloudVoteParticipant()
 //        clearTimeout(timeout);
     }
 
-    timeout = setTimeout(function () { jQuery(location).attr('href', url); }, 5000);
-    clearTimeout(timeout);
+//    timeout = setTimeout(function () { jQuery(location).attr('href', url); }, 5000);
+//    clearTimeout(timeout);
+
+    jQuery(location).attr('href', url);
 
 }
