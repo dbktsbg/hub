@@ -1,26 +1,31 @@
 
 function InitializeFileSystem() 
 {
+    alert("InitializeFileSystem()");
     window.requestFileSystem(LocalFileSystem.PERSISTENT, 0, gotFS, fail);    
 }
 
 function gotFS(fileSystem) 
 {
+    alert("gotFS()");
     fileSystem.root.getFile("MeridiaDeviceSettings.txt", null, gotFileEntry, fail);
 }
 
 function gotFileEntry(fileEntry) 
 {
+    alert("gotFileEntry()");
     fileEntry.file(gotFile, fail);
 }
 
 function gotFile(file) 
 {
+    alert("gotFile()");
     readDataUrl(file);
 }
 
 function ReadDeviceSettings(file) 
 {
+    alert("ReadDeviceSettings()");
     var reader = new FileReader();
     reader.onloadend = function (evt) 
     {
