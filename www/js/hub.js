@@ -22,7 +22,7 @@ function SetupToLaunchCloudVoteParticipant()
         jQuery("#LaunchCloudVoteAnchorButton").attr("href", "http://www.meridiaars.com/cv2.html");
     }
 
-    jQuery("a#DeviceNameRegion")[0].click();
+    jQuery("#LaunchCloudVoteAnchorButton")[0].click();
     
     //jQuery("#LaunchCloudVoteAnchorButton").show();
 
