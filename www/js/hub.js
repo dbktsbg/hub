@@ -1,8 +1,11 @@
 
 function InitializeHub() 
 {
+    SetupToLaunchCloudVoteParticipant
+}
 
-    alert("InitializeHub");
+function SetupToLaunchCloudVoteParticipant() 
+{
 
     var DeviceID = device.uuid
     var DeviceName = device.name

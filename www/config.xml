@@ -4,7 +4,7 @@
   xmlns = "http://www.w3.org/ns/widgets"
   xmlns:gap = "http://phonegap.com/ns/1.0"
   id = "com.dbktsbg.hub"
-  version = "1.0.0">
+  version = "1.0.1">
   
   <name>HUB</name>
 
@@ -15,11 +15,5 @@
   <preference 
     name="orientation" 
     value="portrait" />
-
-  <!--<feature 
-    name="http://api.phonegap.com/1.0/file"/>-->
-
-  <!--<uses-permission 
-    android:name="android.permission.WRITE_EXTERNAL_STORAGE" />-->
 
 </widget>
