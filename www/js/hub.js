@@ -35,6 +35,7 @@ function SetupToLaunchCloudVoteParticipant()
 //    timeout = setTimeout(function () { jQuery(location).attr('href', url); }, 5000);
 //    clearTimeout(timeout);
 
-    jQuery(location).attr('href', url);
+    // Automatically loads new URL (into PhoneGap web view)
+    //jQuery(location).attr('href', url);
 
 }
