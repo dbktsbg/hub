@@ -12,8 +12,4 @@
       UI to integrate web and local functionality.
   </description>
 
-  <preference 
-    name="orientation" 
-    value="portrait" />
-
 </widget>
