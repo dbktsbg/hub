@@ -16,9 +16,12 @@ function SetupToLaunchCloudVoteParticipant()
     jQuery("#DeviceNameRegion").text("Device Name: " + DeviceName);
     jQuery("#DeviceIDRegion").text("Device ID: " + DeviceID);
 
+
+
+
     if (DeviceID=="ef8048728a9fcdbb")
     {
-        url = "http://www.meridiaars.com/cv1.html";
+        url = "meridiaprowebsite.cloudapp.net/participant/join";
         jQuery("#LaunchCloudVoteAnchorButton").attr("href", url);
 //        timeout = setTimeout(function () { jQuery(location).attr('href', url); }, 5000);
 //        clearTimeout(timeout);
@@ -26,7 +29,8 @@ function SetupToLaunchCloudVoteParticipant()
 
     if (DeviceID == "1875fec3215046cd") 
     {
-        url = "http://www.meridiaars.com/cv2.html";
+        //url = "http://www.meridiaars.com/cv2.html";
+        url = "meridiaprowebsite.cloudapp.net/participant/join";
         jQuery("#LaunchCloudVoteAnchorButton").attr("href", url);
 //        timeout = setTimeout(function () { jQuery(location).attr('href', url); }, 5000);
 //        clearTimeout(timeout);
