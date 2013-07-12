@@ -9,7 +9,8 @@ function SetupToLaunchCloudVoteParticipant()
 
     var DeviceID = device.uuid;
     var DeviceName = device.name;
-    var url = "http://www.cloud-vote.com";
+    //var url = "http://www.cloud-vote.com";
+    var url = "http://meridiaprowebsite.cloudapp.net/participant/join";
 
     jQuery("#LaunchCloudVoteAnchorButton").attr("href", url);
 
@@ -22,7 +23,7 @@ function SetupToLaunchCloudVoteParticipant()
     if (DeviceID=="ef8048728a9fcdbb")
     {
         url = "meridiaprowebsite.cloudapp.net/participant/join";
-        jQuery("#LaunchCloudVoteAnchorButton").attr("href", url);
+        //jQuery("#LaunchCloudVoteAnchorButton").attr("href", url);
 //        timeout = setTimeout(function () { jQuery(location).attr('href', url); }, 5000);
 //        clearTimeout(timeout);
     }
@@ -31,7 +32,7 @@ function SetupToLaunchCloudVoteParticipant()
     {
         //url = "http://www.meridiaars.com/cv2.html";
         url = "meridiaprowebsite.cloudapp.net/participant/join";
-        jQuery("#LaunchCloudVoteAnchorButton").attr("href", url);
+        //jQuery("#LaunchCloudVoteAnchorButton").attr("href", url);
 //        timeout = setTimeout(function () { jQuery(location).attr('href', url); }, 5000);
 //        clearTimeout(timeout);
     }
