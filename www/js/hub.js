@@ -9,8 +9,8 @@ function SetupToLaunchCloudVoteParticipant()
 
     var DeviceID = device.uuid;
     var DeviceName = device.name;
-    //var url = "http://www.cloud-vote.com";
-    var url = "http://meridiaprowebsite.cloudapp.net/participant/join";
+    var url = "http://www.cloud-vote.com";
+    //var url = "http://meridiaprowebsite.cloudapp.net/participant/join";
 
     jQuery("#LaunchCloudVoteAnchorButton").attr("href", url);
 
