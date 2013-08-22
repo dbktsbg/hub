@@ -6,10 +6,10 @@
   id = "com.dbktsbg.hub"
   version = "1.1.0">
   
-  <name>CloudVOTE</name>
+  <name>CVP</name>
 
   <description>
-      UI to launch CloudVOTE (Pro)
+      UI to launch web app
   </description>
 
 </widget>
