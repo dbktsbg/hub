@@ -3,7 +3,7 @@ function InitializeHub()
 {
     //SetupToLaunchCloudVoteParticipant();
 
-    // Automatically loads new URL (into PhoneGap web view)   xxx
+    // Automatically loads new URL (into PhoneGap web view) 
     jQuery(location).attr('href', "http://meridiaprowebsite.cloudapp.net");
     //window.location.href = "http://meridiaprowebsite.cloudapp.net";
 
